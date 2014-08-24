@@ -1,0 +1,1939 @@
+
+<!DOCTYPE html>
+<!-- homepage: gig_application_layout@v4.0.5 ✔ -->
+<!--[if lt IE 7]> <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>    <html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class=""> <!--<![endif]-->
+  <head data-app="homepage" data-country="US" data-language="en" data-locale="en_US" data-domain=".groupon.com">
+    <title>Groupon: Deals and Coupons for Restaurants, Fitness, Travel, Shopping, Beauty &amp; more</title>
+    <meta charset="utf-8">
+    <link href="//www.groupon.com/layout/assets/gig-fonts-latin-v2.2.4-bec3abb5c6.css" rel="stylesheet" type="text/css" id="ls-fonts" />
+
+      <link href="//www.groupon.com/layout/assets/gig_application_layout-v4.0.5-90214411cf.css" rel="stylesheet" type="text/css" id="gig-ltr" />
+    <script>
+      if (window.chrome && navigator.appVersion.indexOf("Win")!=-1){
+        var head = document.head,
+            css = "@font-face{font-family:Groupon;font-style:normal;font-weight:400;src:local('☺'),url(/layout/fonts/Groupon-v2.4.woff) format('woff')}",
+            style = document.createElement('style');
+        style.type="text/css";
+        if (style.styleSheet){
+          style.styleSheet.cssText = css;
+        } else {
+          style.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(style);
+      }
+    </script>
+    <script>
+      BOOMR = {};
+      BOOMR["t_lstart"] = new Date().getTime();
+      var collectOnload = function(){
+        BOOMR["t_lonload"] = new Date().getTime();
+      }
+      var addListener = function(sType){
+        if(window.addEventListener) {
+          window.addEventListener(sType, collectOnload, false);
+        } else if(window.attachEvent){
+          window.attachEvent("on"+sType, collectOnload);
+        }
+      }
+      if("onpagehide" in window) {
+        addListener("pageshow");
+      } else {
+        addListener("load");
+      }
+    
+      var applicationConfig =
+        
+    {}
+;
+    </script>
+    <script>
+      window.Groupon || (window.Groupon = {});
+      Groupon.division = {"lat":61.2181,"lng":-149.9,"timezoneIdentifier":"America/Juneau","defaultLocale":"en","state":{"abbreviation":"AK"},"timezone":"Alaska","id":"anchorage","name":"Anchorage","country":"USA","areas":[],"selectCurrentDivision":"selected"};
+      Groupon.Performance = {};
+      Groupon.Performance.boomerangUrl = "//www.groupon.com/layout/assets/boomerang-0.9.3-basic.js";
+      Groupon.CartTranslations = {"cart":{"cart":"Cart","desc":"Your Cart","quantity":"Qty","price":"Price","subtotal":"Subtotal","view_cart":"View Cart","empty_cart":"Your Shopping Cart is Empty!","empty_text":"Time to fill this bad boy with great products like gadgets, electronics, housewares, gifts and other great offerings from","groupon_goods":"Groupon Goods"}};
+      Groupon.endpoints =
+      { deals: "//api.groupon.com/v2/deals/autocomplete?client_id=65805330B9C8645F78F4FD027925D3C8"
+      , locations: "//api.groupon.com/v2/locations/autocomplete?client_id=65805330B9C8645F78F4FD027925D3C8"
+      };
+    </script>
+    <script>(function(w) {
+    
+    var config = {"cookieDomain":".groupon.com","page":{"app":"homepage","channel":"main"},"user":{"platform":"unknown"}},
+      page;
+    config.page = config.page || {};
+    page = config.page;
+    page.division = "anchorage";
+    page.country = "US";
+    page.type = "homepage/index";
+    page.channel = "" || page.channel || "main";
+    w.Optimize = { suiteData:
+    { config:       config
+    , app:          page.app
+    , cookieDomain: config.cookieDomain
+    , pageType:     page.type
+    , division:     page.division
+    , country:      page.country
+    , channel:      page.channel
+    }}; })(window)</script>
+    <script>
+      Optimize.finchConfig = (function () {
+        var appConfig =
+            {"PromNight":{"experiments":{"PromNightHeaderV2":{"name":"PromNightHeaderV2","tracking":false,"variants":["showV2"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"PromNightGifts":{"experiments":{"PromNightGifts":{"name":"PromNightGifts","tracking":false,"variants":["hide"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"},"homepage-closed-loop":{"experiments":{"ClosedLoopDealTypes":{"name":"ClosedLoopDealTypes","tracking":true,"variants":["ClosedLoopCTA"],"bucket_min":0,"bucket_max":999,"buckets":"0..999"}},"diversion_type":"CookieDiversion"}}
+        
+;
+        var layoutConfig =
+          {"itier-seo-pages-subscription":{"experiments":{"itier-seo-pages-subscription-experiment":{"name":"itier-seo-pages-subscription-experiment","buckets":"0..332","bucket_min":0,"bucket_max":332,"tracking":true,"variants":["none"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-common":{"experiments":{"subscription-flow-common-experiment":{"name":"subscription-flow-common-experiment","buckets":"0..299","bucket_min":0,"bucket_max":299,"tracking":false,"variants":["subscription_fullScreen_2","subscription_fullScreen_6","subscription_fullScreen_9"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"PromNightGifts":{"experiments":{"PromNightGifts":{"name":"PromNightGifts","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":false,"variants":["hide"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-banner":{"experiments":{"subscription-flow-banner-experiment":{"name":"subscription-flow-banner-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_banner_0"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-common-division-override":{"experiments":{"subscription-flow-common-division-override-experiment":{"name":"subscription-flow-common-division-override-experiment","buckets":"0..299","bucket_min":0,"bucket_max":299,"tracking":true,"variants":["subscription_fullScreen_2","subscription_fullScreen_6","subscription_fullScreen_9"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-seo-division-override":{"experiments":{"subscription-flow-seo-division-override-experiment":{"name":"subscription-flow-seo-division-override-experiment","buckets":"0..332","bucket_min":0,"bucket_max":332,"tracking":true,"variants":["none"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-common-intl":{"experiments":{"subscription-flow-common-experiment-intl":{"name":"subscription-flow-common-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["GB","FR","DE","IT","ES","AT","IE","PT","CH","DK","FI","SE","GR","NL","PL","NO","BR"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-sub-save":{"experiments":{"subscription-flow-sub-save-experiment":{"name":"subscription-flow-sub-save-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_fullScreen_2_subSave"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-non-sub-save":{"experiments":{"subscription-flow-non-sub-save-experiment":{"name":"subscription-flow-non-sub-save-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_fullScreen_2"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-resubscribe":{"experiments":{"subscription-resubscribe":{"name":"subscription-resubscribe","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_fullScreen_2"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-geocat":{"experiments":{"subscription-flow-geocat-experiment":{"name":"subscription-flow-geocat-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_7_showClose","none"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-serp-intl":{"experiments":{"subscription-flow-serp-experiment-intl":{"name":"subscription-flow-serp-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","GB"]}}]}},"diversion_type":"CookieDiversion"},"itier-seo-pages-subscription-intl":{"experiments":{"itier-seo-pages-subscription-experiment-intl":{"name":"itier-seo-pages-subscription-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-seo-homepage-intl":{"experiments":{"subscription-seo-homepage-experiment-intl":{"name":"subscription-seo-homepage-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-sem-homepage-intl":{"experiments":{"subscription-sem-homepage-experiment-intl":{"name":"subscription-sem-homepage-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_modalDialog_4"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","DK","FI","FR","DE","IE","IT","NO","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-banner-intl":{"experiments":{"subscription-flow-banner-experiment-intl":{"name":"subscription-flow-banner-experiment-intl","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["subscription_banner_0"],"guards":[{"name":"inCountry","parameters":{"countries":["AT","BE","CA","DK","FI","FR","DE","IE","IT","NL","NO","PL","PT","ES","SE","CH","GB"]}}]}},"diversion_type":"CookieDiversion"},"subscription-flow-display":{"experiments":{"subscription-flow-display-experiment":{"name":"subscription-flow-display-experiment","buckets":"0..999","bucket_min":0,"bucket_max":999,"tracking":true,"variants":["none","subscription_modalDialog_8_showClose"],"guards":[{"name":"inCountry","parameters":{"countries":["US"]}}]}},"diversion_type":"CookieDiversion"}}
+          ;
+        for (var key in layoutConfig) {
+          if(layoutConfig.hasOwnProperty(key)) {
+            appConfig[key] = layoutConfig[key];
+          }
+        }
+        return appConfig;
+      }());
+    </script>
+    <script src="//www.groupon.com/layout/assets/perflibLoader-v2.4.1-d4df8145aa.js"></script>
+    <link href="//www.groupon.com/layout/assets/gig_application_layout-favicon-5414457d50.ico" rel="shortcut icon">
+      <script src="//www.groupon.com/layout/assets/gig_application_layout-v4.0.5-7a1614dfcd.js"></script>
+        <script>
+          Groupon.Modules.SearchBar.init({"division":{"lat":61.2181,"lng":-149.9,"timezoneIdentifier":"America/Juneau","defaultLocale":"en","state":{"abbreviation":"AK"},"timezone":"Alaska","id":"anchorage","name":"Anchorage","country":"USA","areas":[],"selectCurrentDivision":"selected"},"google_geo_url":"//mapproxy.groupon.com/maps/api/js"});
+        </script>
+    <style>html{background: #222;}</style>
+    <!--[if lte IE 7]>
+      <link href="//www.groupon.com/layout/assets/gig-ie7-v4.0.5-cfb846c64a.css" rel="stylesheet" type="text/css" />
+      <script src="//www.groupon.com/layout/js/lte-ie7.js"></script>
+    <![endif]-->
+    <meta name="description" content="Deals and Coupons from 50-90% off on Restaurants, Fitness, Travel, Shopping, Beauty, Spas, Holiday Gifts and more">
+
+
+    <link rel="canonical" href="http://www.groupon.com">
+
+
+<meta name="referrer" content="origin">
+    <link href="/homepage-assets/styles-a7bf3419c9.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+<body dir="ltr" class="
+  
+  no-js prom-night 
+    
+    
+    ltr en_US en_XX
+    ">
+
+    <div id="ls-google-tag-manager" class="ls-hide-absolute">
+      <script>window.dataLayer = (function(gtm) {
+        try {
+      gtm = JSON.parse(_.unescape('{&quot;dl_division&quot;:&quot;anchorage&quot;,&quot;dl_category&quot;:&quot;&quot;,&quot;dl_category_sub&quot;:&quot;&quot;,&quot;dl_purchased_groupon&quot;:&quot;&quot;}'));
+    } catch(e) {}
+        
+        return [gtm];
+      })({})</script>
+    
+      
+      <noscript><iframe height="0" width="0" style="display:none;visibility:hidden"
+        src="//www.googletagmanager.com/ns.html?id=GTM-B76Z"
+      ></iframe></noscript>
+    
+      <script>
+        $(document).ready(function(){
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-B76Z');
+        });
+      </script>
+      
+    </div>
+
+    <div id="global-container">
+
+        <script>
+          var subscriptionsUI_country = $('head').data('country');
+          Groupon.subscription = new SubscriptionsUI();
+          Groupon.subscription.show_default_subscription_ui();
+        </script>
+
+      <div class="header-v2">
+
+
+            <header class="header" data-bhw="Header" role="banner" id="ls-header">
+              <div class="row" id="ls-header-top-row">
+                <a id="ls-groupon-logo" href="/" class="two columns logo icon-groupon" data-bhw="Logo"></a>
+                <div id="ls-header-main" class="ten columns">
+                  <div class="row">
+                    <div class="eight columns search-bar-wrapper" id="ls-search-bar-wrapper">
+                        <form class="search-bar" id="search-bar" data-bhw="SearchBar" data-nosearchbarfocus="" role="search">
+              <label class="icon-magnifying-glass rounded-input left" for="search">
+                <input type="search" name="search" autocomplete="off" spellcheck="false"
+                   placeholder="What are you looking for?"
+                   id="search" data-bhw="FreeTextSearchField" data-log="Deal" aria-haspopup="ls-typeahead-search" role="input"
+                >
+              </label>
+              <label class="rounded-input right icon-marker" for="location"
+                   data-error-generic="There was an error"
+                   data-error-bad_location="We couldn't understand that location. Try another ZIP/Postal Code, neighborhood or address."
+                   data-error-availability="We are experiencing difficulty finding your location. Try again later.">
+                <input type="text" name="location" autocomplete="off" spellcheck="false"
+                  placeholder="Enter your location"
+                  id="location" data-bhw="LocationBarField" data-log="Location" data-manuallocation="false"
+                  data-locationsearch=""  aria-haspopup="ls-typeahead-location" role="input"
+                    data-focus="location"
+              data-bhc="autofocus:Location"
+      >
+                    <div class="search-teaser" id="ls-search-teaser"
+                         data-bhw="ls-search-teaser" data-bhc="teaserVariant:NearYou-Address">
+                      <a class="close-modal icon-x" id="ls-close-teaser" href="" data-bhw="ls-search-teaser-dismissal"></a>
+                      <h4>Search Deals Near You</h4>
+                      <div class="search-teaser-text">
+                        Type in your address and we&#39;ll show you some great deals.
+                      </div>
+                    </div>
+              </label>
+              <button type="submit" class="hide" data-bhw="LocationBarFindDeals"></button>
+            </form>
+          
+              <script>
+                Groupon.Modules.SearchBar.SearchOverrides = [{"link":"/occasion/bestofgroupon","terms":["best","best of","best of groupon","top","top rated","best massage","best restaurant","best things to do","best gym","best facial","best nail salon","best car wash","best facial","best spas","best laser hair removal","best indian","best italian","best american","best bar"]},{"link":"http://www.grouponworks.com/get-featured","terms":["sell on groupon","advertise on groupon","run a groupon deal","get featured"]},{"link":"/groupon-promise","terms":["return policy","claim refund","request refund","refund","returns"]},{"link":"/customer_support","terms":["customer support","customer service"]},{"link":"https://merchants.groupon.com","terms":["merchant center"]},{"link":"https://breadcrumb.groupon.com/","terms":["breadcrumb","pos","point of sale"]},{"link":"https://breadcrumb.groupon.com/payments","terms":["payments"]},{"link":"https://grassroots.groupon.com/","terms":["charity","grassroots"]},{"link":"/coupons","terms":["coupons"]},{"link":"/giftcards","terms":["gift card"]},{"link":"/articles/favin-the-maven","terms":["favin","favins faves","favin\"s faves","favin the maven","Beauty Expert","Resident Expert","Beauty Advice","Beauty Tips","Beauty Tricks"]},{"link":"/browse/?category=food-and-drink","terms":["eat15"]},{"link":"/travel","terms":["hotel","hotels","b&b","motel","hotel deal","hotel deals","hotel rooms","hotel room","rooms","bed and breakfast","travel deals","vacation","resort","getaways","bath spa hotel","spa hotels","spa hotel","spa hotell"]},{"link":"/travel/anaheim/hotels","terms":["disneyland","hotels near disneyland"]},{"link":"/travel/orlando/hotels","terms":["disneyworld"]},{"link":"/travel/las-vegas/hotels","terms":["vegas hotel","vegas hotels","hotel in vegas","hotels in vegas","hotel vegas","hotels vegas","las vegas hotel","las vegas hotels","hotel in las vegas","hotels in las vegas","hotel las vegas","hotels las vegas"]},{"link":"/travel/atlantic-city-nj/hotels","terms":["atlantic city hotel","atlantic city hotels","hotel in atlantic city","hotels in atlantic city","hotel atlantic city","hotels atlantic city"]},{"link":"/travel/orlando/hotels","terms":["orlando hotel","orlando hotels","hotel in orlando","hotels in orlando","hotel orlando","hotels orlando"]},{"link":"/travel/chicago/hotels","terms":["chicago hotel","chicago hotels","hotel in chicago","hotels in chicago","hotel chicago","hotels chicago"]},{"link":"/travel/new-york-city/hotels","terms":["new york city hotel","new york city hotels","hotel in new york city","hotels in new york city","hotel new york city","hotels new york city","nyc hotel","nyc hotels","hotel in nyc","hotels in nyc","hotel nyc","hotels nyc"]},{"link":"/travel/new-york/hotels","terms":["new york hotel","new york hotels","hotel in new york","hotels in new york","hotel new york","hotels new york"]},{"link":"/travel/niagara-falls-ny/hotels","terms":["niagara falls hotel","niagara falls hotels","hotel in niagara falls","hotels in niagara falls","hotel niagara falls","hotels niagara falls"]},{"link":"/travel/miami-beach-fl/hotels","terms":["miami beach hotel","miami beach hotels","hotel in miami beach","hotels in miami beach","hotel miami beach","hotels miami beach"]},{"link":"/travel/seattle/hotels","terms":["seattle hotel","seattle hotels","hotel in seattle","hotels in seattle","hotel seattle","hotels seattle"]},{"link":"/travel/new-orleans/hotels","terms":["new orleans hotel","new orleans hotels","hotel in new orleans","hotels in new orleans","hotel new orleans","hotels new orleans"]},{"link":"/travel/boston/hotels","terms":["boston hotel","boston hotels","hotel in boston","hotels in boston","hotel boston","hotels boston"]},{"link":"/travel/san-diego/hotels","terms":["san diego hotel","san diego hotels","hotel in san diego","hotels in san diego","hotel san diego","hotels san diego"]},{"link":"/travel/san-francisco/hotels","terms":["san francisco hotel","san francisco hotels","hotel in san francisco","hotels in san francisco","hotel san francisco","hotels san francisco"]},{"link":"/travel/washington/hotels","terms":["washington hotel","washington hotels","hotel in washington","hotels in washington","hotel washington","hotels washington"]},{"link":"/travel/miami/hotels","terms":["miami hotel","miami hotels","hotel in miami","hotels in miami","hotel miami","hotels miami"]},{"link":"/travel/san-antonio/hotels","terms":["san antonio hotel","san antonio hotels","hotel in san antonio","hotels in san antonio","hotel san antonio","hotels san antonio"]},{"link":"/travel/toronto/hotels","terms":["toronto hotel","toronto hotels","hotel in toronto","hotels in toronto","hotel toronto","hotels toronto"]},{"link":"/travel/palm-springs-ca/hotels","terms":["palm springs hotel","palm springs hotels","hotel in palm springs","hotels in palm springs","hotel palm springs","hotels palm springs"]},{"link":"/travel/los-angeles/hotels","terms":["los angeles hotel","los angeles hotels","hotel in los angeles","hotels in los angeles","hotel los angeles","hotels los angeles"]},{"link":"/travel/philadelphia/hotels","terms":["philadelphia hotel","philadelphia hotels","hotel in philadelphia","hotels in philadelphia","hotel philadelphia","hotels philadelphia"]},{"link":"/travel/dallas/hotels","terms":["dallas hotel","dallas hotels","hotel in dallas","hotels in dallas","hotel dallas","hotels dallas"]},{"link":"/travel/key-west-fl/hotels","terms":["key west hotel","key west hotels","hotel in key west","hotels in key west","hotel key west","hotels key west"]},{"link":"/travel/atlanta/hotels","terms":["atlanta hotel","atlanta hotels","hotel in atlanta","hotels in atlanta","hotel atlanta","hotels atlanta"]},{"link":"/travel/nashville/hotels","terms":["nashville hotel","nashville hotels","hotel in nashville","hotels in nashville","hotel nashville","hotels nashville"]},{"link":"/travel/washington-dc/hotels","terms":["washington dc hotel","washington dc hotels","hotel in washington dc","hotels in washington dc","hotel washington dc","hotels washington dc"]},{"link":"/occasion/my-chicago-by-giuliana-rancic","terms":["giuliana","giuliana rancic","rancic","guiliana"],"guards":{"experiments":{"LS-211":"1"},"divisions":["chicago"]}}];
+              </script>
+        </div>
+                    <div class="four columns user-wrapper">
+            
+                      
+                      <nav class="user-menu signed-out">
+              <span class="user-menu-item cart-widget responsive-hide-500" data-bhw="CartWidget">
+                <a href="/cart" class="icon-goods">
+                  Cart
+                </a>
+              </span>
+    <a class="first user-menu-item user-menu-action" href="/login" data-bhw="SignIn">
+                Sign In
+              </a>
+              <a class="last user-menu-item user-menu-action" href="/signup" data-bhw="SignUp">
+                Sign Up
+              </a>
+</nav>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <nav id="ls-primary-nav" role="navigation">
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="primary-nav ">
+  
+          <li id="home-tab" class="primary-nav-tab" data-bhw="NavHome">
+              <a class="icon-home breakout-iconHomeHidden" href="/">
+                <span class="responsive-hide">Home</span>
+              </a>
+        </li>
+  
+            <li id="local-tab"
+              class="primary-nav-tab "
+              data-bhw="NavLocalDeals">
+              <a href="/browse/anchorage?context=local">Local</a>
+            </li>
+
+          <li id="goods-tab" class="primary-nav-tab" data-bhw="NavGoods">
+            <a href='/goods'>
+              Goods
+            </a>
+          </li>
+  
+          <li id="getaways-tab" class="primary-nav-tab" data-bhw="NavGetaways">
+            <a href='/getaways'>
+                Getaways
+          </a>
+          </li>
+  
+                <li id="ls-clearance" class="primary-nav-tab" data-bhw="NavClearance">
+                <a href="/goods?category=all&discount=gg-clearance">
+                  Clearance
+                  </a>
+                </li>
+
+              <li id="coupons-tab" class="primary-nav-tab" data-bhw="NavCoupons">
+                <a href="/coupons">Coupons</a>
+              </li>
+
+  
+            <style>
+            .ls-occasion-tab .ls-occasion-violator {
+              margin: ;
+              width: px;
+              height: px;
+              background-image: url("");
+              background-size: px px;
+            }
+            @media all and (-webkit-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+              .ls-occasion-tab .ls-occasion-violator {
+                background-image: url("");
+              }
+            }
+          </style>
+    <li id="occasion-tab" class="Occasion ls-occasion-tab primary-nav-tab last" data-bhw="NavOccasion">
+              <a href="/occasions" class="G_event E-GobalTopNavNH_GrouponOccasion " data-track="{&quot;event&quot;:&quot;click&quot;,&quot;t&quot;:&quot;occasion_tab_selected&quot;}">
+                <span class="ls-occasion-violator"></span>
+                Night Out
+              </a>
+            </li>
+              </ul>
+      </div>
+    </div>
+  </nav>
+
+              <div id="ls-rail" class="ls-rail row"><span id="ls-rail-slide"></span></div>
+  <nav class="subnav">
+      <nav class="subnav-flyout local-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-local-tab"
+           id="subnav-local-tab">
+            <div class="column subnav-categories" data-bhw="local-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/browse/anchorage?context=local"
+                     data-bhc="category:local-tab-all-deals" id="all-deals"
+                     >
+                      All Deals
+                          <span class="count">229</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=automotive"
+                     data-bhc="category:local-tab-automotive" id="automotive"
+                     >
+                      Automotive
+                          <span class="count">9</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=beauty-and-spas"
+                     data-bhc="category:local-tab-beauty-and-spas" id="beauty-and-spas"
+                     >
+                      Beauty &amp; Spas
+                          <span class="count">40</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=food-and-drink"
+                     data-bhc="category:local-tab-food-and-drink" id="food-and-drink"
+                     >
+                      Food &amp; Drink
+                          <span class="count">13</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=health-and-fitness"
+                     data-bhc="category:local-tab-health-and-fitness" id="health-and-fitness"
+                     >
+                      Health &amp; Fitness
+                          <span class="count">33</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=home-improvement"
+                     data-bhc="category:local-tab-home-improvement" id="home-improvement"
+                     >
+                      Home Services
+                          <span class="count">7</span>
+                  </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="local-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=local-services"
+                     data-bhc="category:local-tab-local-services" id="local-services"
+                     >
+                      Local Services
+                          <span class="count">89</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=shopping"
+                     data-bhc="category:local-tab-shopping" id="shopping"
+                     >
+                      Shopping
+                          <span class="count">21</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/browse/anchorage?category=things-to-do"
+                     data-bhc="category:local-tab-things-to-do" id="things-to-do"
+                     >
+                      Things To Do 
+                          <span class="count">32</span>
+                  </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://groupon.com/occasion/night-out"
+               data-bhw="MegamindLocal_SubNav_NightOut"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;bf8a3f2b&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/5sGgfr1wU4ETAvSU19Qb/gF-440x420.jpg" 
+                   data-bhc="asset:MegamindLocal_SubNav_NightOut"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/browse/anchorage?filters=new"
+               data-bhw="MegamindNavBar"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;f796ef82&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/dqEFUJRPbha7NQ2aL8Mt1c/mu_local-newdeals_jpg-440x420" 
+                   data-bhc="asset:MegamindNavBar"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout goods-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-goods-tab"
+           id="subnav-goods-tab">
+            <div class="column subnav-categories" data-bhw="goods-tab-column">
+              <div class="">
+                    <a class="subnav-link subnav-link-count" href="/goods?category=all"
+                     data-bhc="category:goods-tab-all-goods" id="all-goods"
+                     >
+                      All Goods
+                          <span class="count">10</span>
+                  </a>
+                  <a class="subnav-link" href="/goods?category=all&amp;discount=gg-clearance"
+                     data-bhc="category:goods-tab-all&amp;discount=gg-clearance" id="all&amp;discount=gg-clearance"
+                     >
+                      Clearance
+                    </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=apparel-and-accessories"
+                     data-bhc="category:goods-tab-apparel-and-accessories" id="apparel-and-accessories"
+                     >
+                      Apparel
+                          <span class="count">1</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=entertainment-and-media"
+                     data-bhc="category:goods-tab-entertainment-and-media" id="entertainment-and-media"
+                     >
+                      Entertainment
+                          <span class="count">8</span>
+                  </a>
+                  <a class="subnav-link subnav-link-count" href="/goods?category=home-goods"
+                     data-bhc="category:goods-tab-home-goods" id="home-goods"
+                     >
+                      Home
+                          <span class="count">1</span>
+                  </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://groupon.com/occasion/gg-activewear"
+               data-bhw="MegamindGoods_SubNav_Marika"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;233b9d0c&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/dUmiPvZyToNBrNpCLCCu/JK-440x420.jpg" 
+                   data-bhc="asset:MegamindGoods_SubNav_Marika"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://groupon.com/occasion/gg-fan-shop"
+               data-bhw="MegamindGoods_SubNav_FanShop"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;d256a9fd&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/sparta/rtva489yUfBxW1pAeQp4/v9-440x420.jpg" 
+                   data-bhc="asset:MegamindGoods_SubNav_FanShop"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout getaways-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-getaways-tab"
+           id="subnav-getaways-tab">
+            <div class="column subnav-categories" data-bhw="getaways-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/getaways#category/All+Destinations"
+                     
+                     data-bhc="category:getaways-tab-All Destinations">
+                      All Destinations
+                    </a>
+                  <a class="subnav-link" href="/getaways#category/USA+and+Canada"
+                     
+                     data-bhc="category:getaways-tab-USA &amp; Canada">
+                      USA &amp; Canada
+                    </a>
+                  <a class="subnav-link" href="/getaways#category/Mexico,+the+Caribbean,+&amp;+Latin+America"
+                     
+                     data-bhc="category:getaways-tab-Mexico, the Caribbean, &amp; Latin America">
+                      Mexico, the Caribbean, &amp; Latin America
+                    </a>
+                  <a class="subnav-link" href="/getaways#category/Europe,+Asia,+Africa,+&amp;+Oceania"
+                     
+                     data-bhc="category:getaways-tab-Europe, Asia, Africa, &amp; Oceania">
+                      Europe, Asia, Africa, &amp; Oceania
+                    </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/best-hotel-deals"
+               data-bhw="MegamindNavBar"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;f1b01ec7&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/5CKRbXh3ksaCgViUCL4XrP/getaways_under99-440x420" 
+                   data-bhc="asset:MegamindNavBar"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/hot-travel-deals"
+               data-bhw="MegamindNavBar"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;d341fca6&quot;,&quot;mm_position&quot;:2}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/ncDBNDfjS8Kx5XVXCgfMPP/getaways_newdeals-440x420" 
+                   data-bhc="asset:MegamindNavBar"/>
+            </a>
+          <a class="column subnav-megamind-widget" href="https://www.groupon.com/occasion/ga-family-getaways"
+               data-bhw="MegamindNavBar"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;b4d3da85&quot;,&quot;mm_position&quot;:3}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/deal/iNAxj9fBoYuKWSegyJwC/Cn-440x420" 
+                   data-bhc="asset:MegamindNavBar"/>
+            </a>
+
+      </nav>
+    <nav class="subnav-flyout coupons-tab-flyout row
+           
+           flyout-v1 hide"
+           data-bhw="SubNav-coupons-tab"
+           id="subnav-coupons-tab">
+            <div class="column subnav-categories" data-bhw="coupons-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/coupons/stores"
+                     
+                     data-bhc="category:coupons-tab-All Stores">
+                      All Stores
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/target.com"
+                     
+                     data-bhc="category:coupons-tab-Target Coupons">
+                      Target Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/toysrus.com"
+                     
+                     data-bhc="category:coupons-tab-Toys R Us Coupons">
+                      Toys R Us Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/sephora.com"
+                     
+                     data-bhc="category:coupons-tab-Sephora Coupons">
+                      Sephora Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/nordstrom.com"
+                     
+                     data-bhc="category:coupons-tab-Nordstrom Coupons">
+                      Nordstrom Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/bestbuy.com"
+                     
+                     data-bhc="category:coupons-tab-Best Buy Coupons">
+                      Best Buy Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/macys.com"
+                     
+                     data-bhc="category:coupons-tab-Macy&#39;s Coupons">
+                      Macy&#39;s Coupons
+                    </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="coupons-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/coupons/stores/ae.com"
+                     
+                     data-bhc="category:coupons-tab-American Eagle Coupons">
+                      American Eagle Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/aeropostale.com"
+                     
+                     data-bhc="category:coupons-tab-Aeropostale Coupons">
+                      Aeropostale Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/finishline.com"
+                     
+                     data-bhc="category:coupons-tab-Finish Line Coupons">
+                      Finish Line Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/walmart.com"
+                     
+                     data-bhc="category:coupons-tab-Walmart Coupons">
+                      Walmart Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/shutterfly.com"
+                     
+                     data-bhc="category:coupons-tab-Shutterfly Coupons">
+                      Shutterfly Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/walgreens.com"
+                     
+                     data-bhc="category:coupons-tab-Walgreens Coupons">
+                      Walgreens Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/thebodyshop.com"
+                     
+                     data-bhc="category:coupons-tab-The Body Shop Coupons">
+                      The Body Shop Coupons
+                    </a>
+            </div>
+            </div>
+          <div class="column subnav-categories" data-bhw="coupons-tab-column">
+              <div class="">
+                    <a class="subnav-link" href="/coupons/stores/amazon.com"
+                     
+                     data-bhc="category:coupons-tab-Amazon Coupons">
+                      Amazon Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/kohls.com"
+                     
+                     data-bhc="category:coupons-tab-Kohl&#39;s Coupons">
+                      Kohl&#39;s Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/jcpenney.com"
+                     
+                     data-bhc="category:coupons-tab-JCPenney Coupons">
+                      JCPenney Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/sears.com"
+                     
+                     data-bhc="category:coupons-tab-Sears Coupons">
+                      Sears Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/barnesandnoble"
+                     
+                     data-bhc="category:coupons-tab-Barnes &amp; Noble Coupons">
+                      Barnes &amp; Noble Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/homedepot.com"
+                     
+                     data-bhc="category:coupons-tab-Home Depot Coupons">
+                      Home Depot Coupons
+                    </a>
+                  <a class="subnav-link" href="/coupons/stores/westernunion.com"
+                     
+                     data-bhc="category:coupons-tab-Western Union Coupons">
+                      Western Union Coupons
+                    </a>
+            </div>
+            </div>
+
+            <a class="column subnav-megamind-widget" href="https://www.groupon.com/coupons"
+               data-bhw="MegamindNavBar"
+              data-bhd="{&quot;mm_request_id&quot;:&quot;201408200055801862381&quot;,&quot;mm_treatment&quot;:&quot;8120f941&quot;,&quot;mm_position&quot;:1}">
+              <img class="ls-lazy" data-original="https://img.grouponcdn.com/coupons/2r54dY2JGcgC55WEfBcjT4/coupons-text-col4-440x420" 
+                   data-bhc="asset:MegamindNavBar"/>
+            </a>
+
+      </nav>
+</nav>
+
+            </header>
+        <div id="ls-banners"> 
+                  </div>
+
+              </div>
+
+
+      
+
+<div class="homepage-content main module ">
+
+  
+  
+
+  <div class="row top-row">
+          <div class="three columns">
+            <div id="left-nav-categories" data-bhw="LeftNavCategories" data-bh-viewport="respect">
+              <ul>
+                  <li data-bhc="category:food-and-drink"><a href="/browse/anchorage?category=food-and-drink">Food &amp; Drink <span class="counter">(13)</span></a></li>
+          <li data-bhc="category:things-to-do"><a href="/browse/anchorage?category=things-to-do">Things To Do  <span class="counter">(32)</span></a></li>
+          <li data-bhc="category:beauty-and-spas"><a href="/browse/anchorage?category=beauty-and-spas">Beauty &amp; Spas <span class="counter">(40)</span></a></li>
+          <li data-bhc="category:health-and-fitness"><a href="/browse/anchorage?category=health-and-fitness">Health &amp; Fitness <span class="counter">(33)</span></a></li>
+          <li data-bhc="category:automotive"><a href="/browse/anchorage?category=automotive">Automotive <span class="counter">(9)</span></a></li>
+          <li data-bhc="category:shopping"><a href="/browse/anchorage?category=shopping">Shopping <span class="counter">(21)</span></a></li>
+          <li data-bhc="category:apparel-and-accessories"><a href="/goods?category=apparel-and-accessories">Apparel <span class="counter">(1)</span></a></li>
+          <li data-bhc="category:travel"><a href="/getaways">Getaways <span class="counter">(410)</span></a></li>
+      </ul>
+            </div>
+          </div>
+        <div class="six columns">
+  <h2 class="flush-top">Recommended For You</h2>
+</div>
+<section id="megamindHeroDeal2Column_PseudoFreshWidget" class=" six columns mm-widget mini-cards"  data-bhw="MegamindHeroDeal2Column_PseudoFresh"  data-bhd="{&quot;mm_position&quot;:1,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;33d791e0&quot;}" data-bh-viewport="respect"
+>
+  <figure class="deal-card hero-deal " data-bhc="deal:a-appearance-7" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+    <a href="//www.groupon.com/deals/a-appearance-7">
+      <img src="//img.grouponcdn.com/deal/3D2qrHJXmPRGZVZHBMg8/iD-2048x1229/v1/c550x332.jpg">
+            <figcaption>
+        <p class="deal-title should-truncate">Auto Detailing</p>
+        <div class="deal-metadata">
+            <p class="merchant-name">A+ Appearance</p>
+            <p class="meta-divider">|</p>
+            <p class="deal-location">Dimond/Old Seward </p>
+        </div>
+        <p class="deal-price">
+            <s class="original-price">$200</s>
+          From $75
+        </p>
+        <div class="view-deal">
+          <a href="//www.groupon.com/deals/a-appearance-7" class="btn-buy" data-bhw="ViewDealButton">View Deal</a>
+        </div>
+      </figcaption>
+    </a>
+  </figure>
+</section>
+
+        <section id="megamindVertical2DealWidget_PseudoFreshWidget" class="three columns mm-widget mini-cards"  data-bhw="MegamindVertical2DealWidget_PseudoFresh"  data-bhd="{&quot;mm_position&quot;:2,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;801812fd&quot;}" data-bh-viewport="respect"
+>
+    <figure class="deal-card " data-bhc="deal:extreme-auto-accessories" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+      <a href="//www.groupon.com/deals/extreme-auto-accessories">
+        <img src="//img.grouponcdn.com/deal/qmqqYHLE2At8deQMBeFi/nT-2048x1229/v1/c220x134.jpg">
+                <figcaption>
+          <p class="deal-title should-truncate">Remote Car Starter</p>
+          <div class="deal-metadata">
+              <p class="merchant-name">Extreme Auto Accessories</p>
+              <p class="deal-location">Northeast Anchorage </p>
+          </div>
+          <p class="deal-price">
+              <s class="original-price">$550</s>
+            From $250
+          </p>
+        </figcaption>
+      </a>
+    </figure>
+    <figure class="deal-card " data-bhc="deal:car-toyz-2" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+      <a href="//www.groupon.com/deals/car-toyz-2">
+        <img src="//img.grouponcdn.com/deal/n4iUsec2Z5QyvwWH1fo8/6u-2048x1229/v1/c220x134.jpg">
+                <figcaption>
+          <p class="deal-title should-truncate">Remote Car Starter</p>
+          <div class="deal-metadata">
+              <p class="merchant-name">Car Toyz</p>
+              <p class="deal-location">Anchorage </p>
+          </div>
+          <p class="deal-price">
+              <s class="original-price">$399</s>
+            $199
+          </p>
+        </figcaption>
+      </a>
+    </figure>
+</section>
+
+  </div>
+
+  <section id="megamindNewDealsWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindNewDeals"  data-bhd="{&quot;mm_position&quot;:3,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;61bebe39&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?filters=new" data-bhw="Title"><h2>New Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?filters=new" data-bhc="viewall:MegamindNewDeals">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:ga-pacific-holidays-fiji-2" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-pacific-holidays-fiji-2">
+          <img src="//img.grouponcdn.com/deal/iyehkw7tB7UkLvRhpDWL/mF-960x582/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Fiji Vacation with Airfare</p>
+            <p class="merchant-name should-truncate">
+              Fiji Vacation with Airfare
+            </p>
+            <p class="deal-location should-truncate">
+              Nadi, Waya, Naviti, and Viwa
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$3,495</s>
+        From $1,999
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:clay-owen-studios-10" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/clay-owen-studios-10">
+          <img src="//img.grouponcdn.com/deal/ayQKLNvNCnkbFhvmYgDY/qQ-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Beginner Mosaic Class</p>
+            <p class="merchant-name should-truncate">
+              Clay Owen Studios
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$100</s>
+        From $55
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:juice-in-the-raw-national-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/juice-in-the-raw-national-anchorage">
+          <img src="//img.grouponcdn.com/deal/6HinCV9JgHdok1mspKGC/bs-700x420/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Juice in the Raw Cleanses</p>
+            <p class="merchant-name should-truncate">
+              Juice in the RAW
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$185</s>
+        From $89
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:pepe-s-turnagain-house-3" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/pepe-s-turnagain-house-3">
+          <img src="//img.grouponcdn.com/deal/ggGa3Pxj1cFsucHELNEZS2/IMAGE_Phoenix-Grille-2048x1242/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Spanish-Fusion Cuisine &amp; Drinks</p>
+            <p class="merchant-name should-truncate">
+              Pepe&#39;s Turnagain House
+            </p>
+            <p class="deal-location should-truncate">
+              Turnagain Arm
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$50</s>
+        $25
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+<section id="megamindTopDeals_PseudoFreshWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindTopDeals_PseudoFresh"  data-bhd="{&quot;mm_position&quot;:4,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;fcaf0f2d&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse" data-bhw="Title"><h2>More Recommendations</h2></a>
+      <a class="view-all" href="/browse" data-bhc="viewall:MegamindTopDeals_PseudoFresh">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:alaska-vein-care-2" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/alaska-vein-care-2">
+          <img src="//img.grouponcdn.com/deal/hda1u3LhvxcZRxPx8Htf/YB-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Vein Treatment</p>
+            <p class="merchant-name should-truncate">
+              Alaska Vein Care
+            </p>
+            <p class="deal-location should-truncate">
+              Multiple Locations
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$1,000</s>
+        $199
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:excellence-in-health-8" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/excellence-in-health-8">
+          <img src="//img.grouponcdn.com/deal/xBqGNn5NLTjyfvcBgm8S/BT-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Medical Massages</p>
+            <p class="merchant-name should-truncate">
+              Excellence in Health
+            </p>
+            <p class="deal-location should-truncate">
+              Midtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$280</s>
+        From $45
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:cascade-auto-glass-20-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/cascade-auto-glass-20-anchorage">
+          <img src="//img.grouponcdn.com/deal/2o1EmxtxErPxWejrT9sP/mv-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Windshield Repair</p>
+            <p class="merchant-name should-truncate">
+              Cascade Auto Glass
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$100</s>
+        From $19
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:center-bowl-3" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/center-bowl-3">
+          <img src="//img.grouponcdn.com/deal/9PVXn2ccPGbJVmvDiJJD/UL-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Bowling and Shoe Rental</p>
+            <p class="merchant-name should-truncate">
+              Center Bowl
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$45</s>
+        $22
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+<section id="megamindLocal_TopHomePageWidget_NightOutWidget" class="row theme-image-three-up mm-widget" data-bhw="MegamindLocal_TopHomePageWidget_NightOut"  data-bhd="{&quot;mm_position&quot;:5,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;c2849582&quot;}" data-bh-viewport="respect"
+>
+  <div class="theme-image-caption">
+    <h2 class="theme-image-caption-header"></h2>
+    <p class="theme-image-caption-subheader"></p>
+  </div>
+  <a class="six columns theme-image" href="/occasion/night-out" alt="">
+    <img src="https://img.grouponcdn.com/sparta/tyYMRC5VsAjmq5oWaqpq/Ks-460x315.jpg" />
+  </a>
+  <div class="six columns deals">
+      <figure class="deal-card-mini " data-bhc="deal:yamato-ya-japanese-restaurant-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/yamato-ya-japanese-restaurant-1">
+          <img src="//img.grouponcdn.com/deal/pcZxA1pn4GeGn7vT3dWa/r1-700x420/v1/c125x75.jpg" />
+            </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/yamato-ya-japanese-restaurant-1">
+            <p class="deal-title should-truncate">Four-Course Japanese Meal</p>
+          </a>
+          <p class="deal-price">
+            <s class="original-price">$77</s> From $44.75
+          </p>
+            <p class="deal-location should-truncate">Midtown</p>
+  </figcaption>
+      </figure>
+      <figure class="deal-card-mini " data-bhc="deal:lux-skin-care" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/lux-skin-care">
+          <img src="//img.grouponcdn.com/deal/nTiZW3hEq78bL9P9dDNr5h/lux_skin_care-2048x1242/v1/c125x75.jpg" />
+            </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/lux-skin-care">
+            <p class="deal-title should-truncate">Mink Eyelash Extensions</p>
+          </a>
+          <p class="deal-price">
+            <s class="original-price">$225</s> From $99
+          </p>
+            <p class="deal-location should-truncate">Anchorage</p>
+  </figcaption>
+      </figure>
+      <figure class="deal-card-mini " data-bhc="deal:eagle-hotel-restaurant-and-lounge" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/eagle-hotel-restaurant-and-lounge">
+          <img src="//img.grouponcdn.com/deal/sYemkTAKuVmm5PuMGpDc/Nv-2048x1242/v1/c125x75.jpg" />
+            </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/eagle-hotel-restaurant-and-lounge">
+            <p class="deal-title should-truncate">Italian and American Food</p>
+          </a>
+          <p class="deal-price">
+            <s class="original-price">$20</s> From $11
+          </p>
+            <p class="deal-location should-truncate">Palmer</p>
+  </figcaption>
+      </figure>
+      <a class="view-all" href="/occasion/night-out" data-bhc="viewall:MegamindLocal_TopHomePageWidget_NightOut">View All</a>  </div>
+</section>
+<section id="megamindEventsAndActivitiesWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindEventsAndActivities"  data-bhd="{&quot;mm_position&quot;:6,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;c33f402e&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?category=things-to-do" data-bhw="Title"><h2>Things to Do Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?category=things-to-do" data-bhc="viewall:MegamindEventsAndActivities">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:miller-s-landing-9" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/miller-s-landing-9">
+          <img src="//img.grouponcdn.com/deal/g9jYMB7B8iQrA4qCpHWL/k1-700x420/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Guided Kayak Tours</p>
+            <p class="merchant-name should-truncate">
+              Miller&#39;s Landing
+            </p>
+            <p class="deal-location should-truncate">
+              Lowell Point
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$358</s>
+        From $159
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:bouncin-bears-2" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/bouncin-bears-2">
+          <img src="//img.grouponcdn.com/deal/pEqwLTWsKRz9wXKwiE4u/4i-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Kids’ Bounce Visits or Party</p>
+            <p class="merchant-name should-truncate">
+              Bouncin&#39; Bears
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$75</s>
+        From $35
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:urban-zen-yoga-studio-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/urban-zen-yoga-studio-1">
+          <img src="//img.grouponcdn.com/deal/smH7KpQhfcXaM8qu94cm/TY-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Yoga Classes</p>
+            <p class="merchant-name should-truncate">
+              Urban Zen Yoga Studio
+            </p>
+            <p class="deal-location should-truncate">
+              Downtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$120</s>
+        From $49
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:crossfit-alaska" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/crossfit-alaska">
+          <img src="//img.grouponcdn.com/deal/hQGKNgW6gZqDuY8rCDr6/Uo-2048x1242/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">CrossFit Classes</p>
+            <p class="merchant-name should-truncate">
+              CrossFit Alaska
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$180</s>
+        From $69
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindGreat_OutdoorsWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindGreat_Outdoors"  data-bhd="{&quot;mm_position&quot;:7,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;50a5bee5&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?interest=outdoorsy" data-bhw="Title"><h2>Great Outdoors Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?interest=outdoorsy" data-bhc="viewall:MegamindGreat_Outdoors">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:stand-up-alaska" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/stand-up-alaska">
+          <img src="//img.grouponcdn.com/deal/6v76os3CTMsDc73BaZKkJe/stand_up_alaska-1399x839/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Standup Paddleboarding (SUP)</p>
+            <p class="merchant-name should-truncate">
+              Stand Up Alaska
+            </p>
+            <p class="deal-location should-truncate">
+              Wasilla
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$130</s>
+        From $65
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:alaska-s-finest-tours-cruises" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/alaska-s-finest-tours-cruises">
+          <img src="//img.grouponcdn.com/deal/xvxAqYj37mBftGc7HvRW/zq-1034x620/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Glacier and Wildlife Tour</p>
+            <p class="merchant-name should-truncate">
+              Alaska&#39;s Finest Tours &amp; Cruises
+            </p>
+            <p class="deal-location should-truncate">
+              Downtown Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$418</s>
+        From $199
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:ga-bk-best-western-plus-prestige-inn-radium-hot-springs-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-bk-best-western-plus-prestige-inn-radium-hot-springs-1">
+          <img src="//img.grouponcdn.com/deal/fc3sjf9xSw3RWxskQ5oH/TT-960x582/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">British Columbia Hotel</p>
+            <p class="merchant-name should-truncate">
+              Best Western Plus Prestige Inn Radium Hot Springs
+            </p>
+            <p class="deal-location should-truncate">
+              Radium Hot Springs, BC
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$138</s>
+        $82
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:ga-bk-park-city-peaks-hotel-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-bk-park-city-peaks-hotel-1">
+          <img src="//img.grouponcdn.com/deal/x45oMwsFavPxbrDpsqwi/At-960x582/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Utah Mountain Lodge</p>
+            <p class="merchant-name should-truncate">
+              Park City Peaks Hotel
+            </p>
+            <p class="deal-location should-truncate">
+              Park City, UT
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$79</s>
+        From $49
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindAutomotiveWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindAutomotive"  data-bhd="{&quot;mm_position&quot;:8,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;7c5528b0&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?category=automotive" data-bhw="Title"><h2>Automotive Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?category=automotive" data-bhc="viewall:MegamindAutomotive">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:lithia-chrysler-jeep-dodge-of-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/lithia-chrysler-jeep-dodge-of-anchorage">
+          <img src="//img.grouponcdn.com/deal/hs8kT6xyRFcS6Qgu4xJu/Au-2048x1242/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Oil Changes and Tire Rotations</p>
+            <p class="merchant-name should-truncate">
+              Lithia Chrysler, Jeep, Dodge of Anchorage
+            </p>
+            <p class="deal-location should-truncate">
+              Bayshore / Klatt
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$54.90</s>
+        From $27
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:dr-vinyl-of-anchorage-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/dr-vinyl-of-anchorage-1">
+          <img src="//img.grouponcdn.com/deal/vqMbZn3SyFvfH4aUbQ26/f7-1246x748/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Car-Seat Heaters &amp; Installation</p>
+            <p class="merchant-name should-truncate">
+              Alaska Vinyl and Tint 
+            </p>
+            <p class="deal-location should-truncate">
+              Midtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$450</s>
+        From $199
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:sublime-designz" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/sublime-designz">
+          <img src="//img.grouponcdn.com/deal/8xCmF7afoLwQys2MCHwBvT/sublime_designz-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Remote Car Starter</p>
+            <p class="merchant-name should-truncate">
+              Sublime Designz
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$350</s>
+        From $169
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:dsr-automotive-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/dsr-automotive-1">
+          <img src="//img.grouponcdn.com/deal/uzTV1gxi8iNvacj5QmcusA/dsr_automotive-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Oil Change and Tire Rotation</p>
+            <p class="merchant-name should-truncate">
+              DSR Automotive
+            </p>
+            <p class="deal-location should-truncate">
+              Taku / Campbell
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$120</s>
+        $59
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindFoodAndDrinkWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindFoodAndDrink"  data-bhd="{&quot;mm_position&quot;:9,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;99fcf119&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?category=food-and-drink" data-bhw="Title"><h2>Food &amp; Drink Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?category=food-and-drink" data-bhc="viewall:MegamindFoodAndDrink">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:johnny-chicago-s" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/johnny-chicago-s">
+          <img src="//img.grouponcdn.com/deal/3uMjuk16FctCbKrTPhSq/E6-5605x3401/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Pizza and Fountain Drinks</p>
+            <p class="merchant-name should-truncate">
+              Johnny Chicago&#39;s
+            </p>
+            <p class="deal-location should-truncate">
+              Midtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$33.20</s>
+        From $15
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:auntie-anne-s-anchorage-2" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/auntie-anne-s-anchorage-2">
+          <img src="//img.grouponcdn.com/deal/rj6TcubCckDCRzF9fZ6G/mo-1459x876/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Auntie Anne&#39;s Soft Pretzels</p>
+            <p class="merchant-name should-truncate">
+              Auntie Anne&#39;s
+            </p>
+            <p class="deal-location should-truncate">
+              Multiple Locations
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$14.36</s>
+        $6
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:namaste-shangri-la" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/namaste-shangri-la">
+          <img src="//img.grouponcdn.com/deal/acdGRe8WVVHL3SD8KxCq/86-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Namaste Shangri-La</p>
+            <p class="merchant-name should-truncate">
+              Namaste Shangri-La
+            </p>
+            <p class="deal-location should-truncate">
+              University Area
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$25</s>
+        From $13
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:paris-bakery-cafe" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/paris-bakery-cafe">
+          <img src="//img.grouponcdn.com/deal/3VUZVv3vujWg6LKD5BBE/Cy-700x420/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">French Food for Dinner</p>
+            <p class="merchant-name should-truncate">
+              Paris Bakery Cafe
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$30</s>
+        $15
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindThreadsWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindThreads"  data-bhd="{&quot;mm_position&quot;:10,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;6d3c77d0&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?interest=wearables" data-bhw="Title"><h2>Thread Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?interest=wearables" data-bhc="viewall:MegamindThreads">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:the-look-6" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/the-look-6">
+          <img src="//img.grouponcdn.com/deal/hzNydeSiCPdeKf49dB1b/JU-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Adult Apparel and Accessories</p>
+            <p class="merchant-name should-truncate">
+              The Look
+            </p>
+            <p class="deal-location should-truncate">
+              Midtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$40</s>
+        $22
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:u-s-vision-15-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/u-s-vision-15-anchorage">
+          <img src="//img.grouponcdn.com/deal/gTobDCzs2Lge245DxqyrHf/jcpenney_optical-700x420/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Glasses and Sunglasses</p>
+            <p class="merchant-name should-truncate">
+              JCPenney Optical
+            </p>
+            <p class="deal-location should-truncate">
+              5th Avenue Mall
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$290</s>
+        From $55
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:cache-89-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/cache-89-anchorage">
+          <img src="//img.grouponcdn.com/deal/7d7jPoNV4aasG2tAYUju/2o-700x420/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Caché </p>
+            <p class="merchant-name should-truncate">
+              Caché
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$50</s>
+        From $25
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:kidz-can-design-8-17-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/kidz-can-design-8-17-anchorage">
+          <img src="//img.grouponcdn.com/deal/uP2rhtRfoTSi6KZCWgST/9K-1200x720/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Custom Sterling Silver Necklace</p>
+            <p class="merchant-name should-truncate">
+              Kidz Can Design
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$129.99</s>
+        $24.99
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindGood_For_KidsWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindGood_For_Kids"  data-bhd="{&quot;mm_position&quot;:11,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;e0a76dcd&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?interest=parent" data-bhw="Title"><h2>Good For Kids Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?interest=parent" data-bhc="viewall:MegamindGood_For_Kids">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:alaska-athletics" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/alaska-athletics">
+          <img src="//img.grouponcdn.com/deal/4u2UapumakmrfvxzLQdU/PJ-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Tumbling Classes for Toddlers</p>
+            <p class="merchant-name should-truncate">
+              Alaska Athletics
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$60</s>
+        From $30
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:aspect-alaska-photography-5" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/aspect-alaska-photography-5">
+          <img src="//img.grouponcdn.com/deal/iV2pzpBAEDrXLeTG8dng/PF-1192x715/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Family or Senior Photo Shoot</p>
+            <p class="merchant-name should-truncate">
+              Aspect Alaska Photography
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$58</s>
+        From $29
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:ga-bk-best-western-inn-at-the-meadows-6" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-bk-best-western-inn-at-the-meadows-6">
+          <img src="//img.grouponcdn.com/deal/jzz5vD6zgXRNqoYcnpih/AT-960x582/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Portland Hotel</p>
+            <p class="merchant-name should-truncate">
+              Best Western Inn At The Meadows
+            </p>
+            <p class="deal-location should-truncate">
+              Portland
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$112</s>
+        From $69
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:ga-bk-best-western-fallsview-hotel-4" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-bk-best-western-fallsview-hotel-4">
+          <img src="//img.grouponcdn.com/deal/4jTNoWDTRGpTGF6o2Uk6/aX-960x582/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Niagara Falls Hotel</p>
+            <p class="merchant-name should-truncate">
+              Best Western Fallsview Hotel
+            </p>
+            <p class="deal-location should-truncate">
+              Niagara Falls, ON
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$229</s>
+        From $51
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindAlways_LearningWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindAlways_Learning"  data-bhd="{&quot;mm_position&quot;:12,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;38db9e97&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?interest=always-learning" data-bhw="Title"><h2>Always Learning Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?interest=always-learning" data-bhc="viewall:MegamindAlways_Learning">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:let-s-cook-alaska-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/let-s-cook-alaska-1">
+          <img src="//img.grouponcdn.com/deal/wcJrhYVX3P8Cs2ZDk5fR/31-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Adult Cooking Class</p>
+            <p class="merchant-name should-truncate">
+              Let&#39;s Cook Alaska
+            </p>
+            <p class="deal-location should-truncate">
+              Sand Lake
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$140</s>
+        $69
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:mammoth-music" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/mammoth-music">
+          <img src="//img.grouponcdn.com/deal/xrWX2F1KJ6k2juDJmzT7/5i-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">30-Minute Guitar Lessons</p>
+            <p class="merchant-name should-truncate">
+              Mammoth Music
+            </p>
+            <p class="deal-location should-truncate">
+              Downtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$60</s>
+        From $29
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:alaska-dance-promotions-5" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/alaska-dance-promotions-5">
+          <img src="//img.grouponcdn.com/deal/7pPnG9j1e5o1w6FK7EZd/hm-2048x1242/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Salsa-Dance Camp or Dance Class</p>
+            <p class="merchant-name should-truncate">
+              Alaska Dance Promotions
+            </p>
+            <p class="deal-location should-truncate">
+              Taku / Campbell
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$120</s>
+        From $60
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:eye-level-alaska" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/eye-level-alaska">
+          <img src="//img.grouponcdn.com/deal/8rhnFMVdVqNcQtXJuPKZ/cc-2048x1242/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Tutoring</p>
+            <p class="merchant-name should-truncate">
+              Eye Level - Alaska
+            </p>
+            <p class="deal-location should-truncate">
+              Midtown
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$145</s>
+        $69
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindGood_For_GiftingWidget" class="four-pack deal-pack row pad-row mm-widget"  data-bhw="MegamindGood_For_Gifting"  data-bhd="{&quot;mm_position&quot;:13,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;6c1a9790&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/browse/anchorage?interest=good-for-gifting" data-bhw="Title"><h2>Good For Gifting Deals</h2></a>
+      <a class="view-all" href="/browse/anchorage?interest=good-for-gifting" data-bhc="viewall:MegamindGood_For_Gifting">View All</a>  </div>
+  <div class="block-grid four-up">
+      <figure class="deal-card " data-bhc="deal:basket-case-gift-baskets-flowers-balloons-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/basket-case-gift-baskets-flowers-balloons-anchorage">
+          <img src="//img.grouponcdn.com/deal/bWCRwZB6JdALkhskPhV8/Ew-2048x1229/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Custom Gift Basket or Flowers</p>
+            <p class="merchant-name should-truncate">
+              Basket Case Gift Baskets Flowers &amp; Balloons
+            </p>
+            <p class="deal-location should-truncate">
+              Airport Heights
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$80</s>
+        From $40
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:lrk-studios-1-10" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/lrk-studios-1-10">
+          <img src="//img.grouponcdn.com/deal/vWWz6SuwnyZSvydWGcNd/bR-700x425/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Boudoir Photo Shoot</p>
+            <p class="merchant-name should-truncate">
+              LRK Studios
+            </p>
+            <p class="deal-location should-truncate">
+              Anchorage
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$410</s>
+        From $49
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:photobook-america-22-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/photobook-america-22-anchorage">
+          <img src="//img.grouponcdn.com/deal/fZqNeu6UcwmQfJRBWTPv/TF-700x420/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Custom Photo Books</p>
+            <p class="merchant-name should-truncate">
+              Photobook America
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$100</s>
+        $29
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:shutterfly-2-anchorage" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/shutterfly-2-anchorage">
+          <img src="//img.grouponcdn.com/deal/u1uTCNcq6EHuRqo91G6P/YR-960x576/v1/c220x134.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Custom Shutterfly Photo Book</p>
+            <p class="merchant-name should-truncate">
+              Shutterfly
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$29.99</s>
+        From $10
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+<section id="megamindGoodsWidget" class="three-pack deal-pack row pad-row mm-widget" data-bhw="MegamindGoods"  data-bhd="{&quot;mm_position&quot;:14,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;b730302d&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/Goods" data-bhw="Title"><h2>Goods Deals</h2></a>
+      <a class="view-all" href="/Goods" data-bhc="viewall:MegamindGoods">View All</a>  </div>
+  <div class="block-grid three-up">
+      <figure class="deal-card " data-bhc="deal:gg-field-stream-one-year-subscription-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/gg-field-stream-one-year-subscription-1">
+          <img src="//img.grouponcdn.com/deal/ceRQD615ZUrCbdLiSkNn/Xc-1440x873/v1/c300x181.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Field &amp; Stream Subscription</p>
+            <p class="merchant-name should-truncate">
+              
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$9.97</s>
+        $5
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:gg-personalized-monogrammed-throw-pillow-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/gg-personalized-monogrammed-throw-pillow-1">
+          <img src="//img.grouponcdn.com/deal/ubbTrkcSLGEhQyBzunaw/ro-960x582/v1/c300x181.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Monogrammed Throw Pillow</p>
+            <p class="merchant-name should-truncate">
+              
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$25</s>
+        $12.99
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:gg-forbes-magazine-subscription-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/gg-forbes-magazine-subscription-1">
+          <img src="//img.grouponcdn.com/deal/mRHu9uYzgcwatq7AqRip/Bm-960x582/v1/c300x181.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Forbes Magazine</p>
+            <p class="merchant-name should-truncate">
+              
+            </p>
+            <p class="deal-location should-truncate no-location">
+              
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$29.99</s>
+        $15
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+ <section id="megamindGetawaysWidget" class="three-pack deal-pack row pad-row mm-widget" data-bhw="MegamindGetaways"  data-bhd="{&quot;mm_position&quot;:15,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;8cab1797&quot;}" data-bh-viewport="respect"
+>
+  <div class="section-head">
+      <a href="/getaways" data-bhw="Title"><h2>Getaways Deals</h2></a>
+      <a class="view-all" href="/getaways" data-bhc="viewall:MegamindGetaways">View All</a>  </div>
+  <div class="block-grid three-up">
+      <figure class="deal-card " data-bhc="deal:ga-best-western-premier-prestige-oceanfront-resort-6" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-best-western-premier-prestige-oceanfront-resort-6">
+          <img src="//img.grouponcdn.com/deal/7XHL6zSJwMcvczykppfM3f/Best-Western-Premier-Prestige-Oceanfront-Resort_01-as-Smart-Object-1-960x582/v1/c300x181.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Sooke Harbour Resort</p>
+            <p class="merchant-name should-truncate">
+              Best Western Premier – Prestige Oceanfront Resort
+            </p>
+            <p class="deal-location should-truncate">
+              Sooke, BC
+            </p>
+            <p class="deal-price">
+                <s class="original-price">C$453</s>
+        From C$259
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:ga-tropicana-casino-resort-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-tropicana-casino-resort-1">
+          <img src="//img.grouponcdn.com/deal/iDxV6Bzd823aTJG42x6X/1J-960x582/v1/c300x181.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Tropicana Casino &amp; Resort</p>
+            <p class="merchant-name should-truncate">
+              Tropicana Casino &amp; Resort
+            </p>
+            <p class="deal-location should-truncate">
+              Atlantic City, NJ
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$100</s>
+        $59
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="deal-card " data-bhc="deal:ga-gate-1-travel-france-4" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-gate-1-travel-france-4">
+          <img src="//img.grouponcdn.com/deal/o9yErv25RhYoSJpBQBS5tY/Gate-1-Travel_France_001-960x582/v1/c300x181.jpg" />
+              <figcaption>
+            <p class="deal-title should-truncate">Tour of France with Airfare</p>
+            <p class="merchant-name should-truncate">
+              Tour of France with Airfare
+            </p>
+            <p class="deal-location should-truncate">
+              Paris, Normandy, Le Mont Saint Michel, and Tours
+            </p>
+            <p class="deal-price">
+                <s class="original-price">$0</s>
+        From $1,999
+            </p>
+          </figcaption>
+        </a>
+      </figure>
+  </div>
+</section>
+<section id="megamindga_Getaways_BeachesWidget" class="row theme-image-three-up mm-widget" data-bhw="Megamindga_Getaways_Beaches"  data-bhd="{&quot;mm_position&quot;:16,&quot;mm_request_id&quot;:&quot;201408200054701863825&quot;,&quot;mm_treatment&quot;:&quot;bbb56368&quot;}" data-bh-viewport="respect"
+>
+  <div class="theme-image-caption">
+    <h2 class="theme-image-caption-header"></h2>
+    <p class="theme-image-caption-subheader"></p>
+  </div>
+  <a class="six columns theme-image" href="/occasion/ga-beach-getaways" alt="Beach Getaways">
+    <img src="https://img.grouponcdn.com/deal/aBxDwXmH5G7eSEUYW7ApnE/merchicon_beach_getaways-460x315" />
+  </a>
+  <div class="six columns deals">
+      <figure class="deal-card-mini " data-bhc="deal:ga-bk-best-western-plus-monterey-beach-resort-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-bk-best-western-plus-monterey-beach-resort-1">
+          <img src="//img.grouponcdn.com/deal/aoGVoct9eUbbkjUXZ5g1/Ne-960x582/v1/c125x75.jpg" />
+            </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/ga-bk-best-western-plus-monterey-beach-resort-1">
+            <p class="deal-title should-truncate">Oceanfront Monterey Hotel</p>
+          </a>
+          <p class="deal-price">
+            <s class="original-price">$239</s> From $111
+          </p>
+            <p class="deal-location should-truncate">Monterey, CA</p>
+  </figcaption>
+      </figure>
+      <figure class="deal-card-mini " data-bhc="deal:ga-vacation-express-grand-lucayan" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-vacation-express-grand-lucayan">
+          <img src="//img.grouponcdn.com/deal/7k8Lav8VdhZyzCvs2KDQ/42-960x582/v1/c125x75.jpg" />
+            </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/ga-vacation-express-grand-lucayan">
+            <p class="deal-title should-truncate">Bahamas Vacation</p>
+          </a>
+          <p class="deal-price">
+            <s class="original-price"></s> From $599
+          </p>
+            <p class="deal-location should-truncate">Freeport, Grand Bahama</p>
+  </figcaption>
+      </figure>
+      <figure class="deal-card-mini " data-bhc="deal:ga-bk-oasis-sens-1" data-bhd="{&quot;status&quot;:&quot;open&quot;,&quot;sold_out&quot;:false}" data-bh-viewport="respect">
+        <a href="//www.groupon.com/deals/ga-bk-oasis-sens-1">
+          <img src="//img.grouponcdn.com/deal/54JjFqqXS7icP2RnBD2t/ic-960x582/v1/c125x75.jpg" />
+            </a>
+        <figcaption>
+          <a href="//www.groupon.com/deals/ga-bk-oasis-sens-1">
+            <p class="deal-title should-truncate">All-Inclusive Cancún Resort</p>
+          </a>
+          <p class="deal-price">
+            <s class="original-price">$462</s> $189
+          </p>
+            <p class="deal-location should-truncate">Cancún</p>
+  </figcaption>
+      </figure>
+      <a class="view-all" href="/occasion/ga-beach-getaways" data-bhc="viewall:Megamindga_Getaways_Beaches">View All</a>  </div>
+</section>
+
+
+  <div id="popular-categories">
+    <section class="row pad-row mm-widget" data-bhw="StaticWidget" data-bhc="staticWidgetType:PopularCategories" data-bh-viewport="respect">
+      <div class="section-head">
+        <h2>Popular Categories</h2>
+      </div>
+  
+      <ul class="block-grid five-up">
+          <li data-bhc="category:food-and-drink">
+            <a href="/browse/anchorage?category=food-and-drink">
+              <img src="/homepage-assets/popular_categories-food-and-drink-5c6a110987.png">
+              <p class="title">Food &amp; Drink</p>
+              <p class="deal-count">13 Deals</p>
+            </a>
+          </li>
+        <li data-bhc="category:things-to-do">
+            <a href="/browse/anchorage?category=things-to-do">
+              <img src="/homepage-assets/popular_categories-things-to-do-d5800e07c0.png">
+              <p class="title">Things To Do</p>
+              <p class="deal-count">32 Deals</p>
+            </a>
+          </li>
+        <li data-bhc="category:beauty-and-spas">
+            <a href="/browse/anchorage?category=beauty-and-spas">
+              <img src="/homepage-assets/popular_categories-beauty-and-spas-ee81104c10.png">
+              <p class="title">Beauty &amp; Spas</p>
+              <p class="deal-count">40 Deals</p>
+            </a>
+          </li>
+        <li data-bhc="category:goods">
+            <a href="/goods">
+              <img src="/homepage-assets/popular_categories-goods-6c313fd733.png">
+              <p class="title">Goods</p>
+              <p class="deal-count">10 Deals</p>
+            </a>
+          </li>
+        <li data-bhc="category:travel">
+            <a href="/getaways">
+              <img src="/homepage-assets/popular_categories-travel-42b2fb228a.png">
+              <p class="title">Getaways</p>
+              <p class="deal-count">410 Deals</p>
+            </a>
+          </li>
+    </ul>
+    </section>
+  </div>
+  <div id="view-all-deals" class="text-center">
+    <a class="button btn-secondary" href="/browse/anchorage" data-bhw="StaticWidget" data-bhc="staticWidgetType:ViewAllDealsButton" data-bh-viewport="respect">
+      View All Deals
+    </a>
+  </div>    <div id="browse-by-location" class="row pad-row" data-bhw="StaticWidget" data-bhc="staticWidgetType:SeoBrowseByLocation" data-bh-viewport="respect">
+      <h3>
+        Browse by City
+        <section class="row pad-row">
+          <div class="twelve columns dotted-line"></div>
+        </section>
+      </h3>
+      <section class="row pad-row">
+        <div class="two columns">
+            <p><a href="/local/albuquerque" data-bhc="location:albuquerque">Albuquerque</a></p>
+          <p><a href="/local/atlanta" data-bhc="location:atlanta">Atlanta</a></p>
+          <p><a href="/local/austin" data-bhc="location:austin">Austin</a></p>
+          <p><a href="/local/baltimore" data-bhc="location:baltimore">Baltimore</a></p>
+          <p><a href="/local/boston" data-bhc="location:boston">Boston</a></p>
+      </div>
+      <div class="two columns">
+            <p><a href="/local/chicago" data-bhc="location:chicago">Chicago</a></p>
+          <p><a href="/local/dallas" data-bhc="location:dallas">Dallas</a></p>
+          <p><a href="/local/denver" data-bhc="location:denver">Denver</a></p>
+          <p><a href="/local/detroit" data-bhc="location:detroit">Detroit</a></p>
+          <p><a href="/local/houston" data-bhc="location:houston">Houston</a></p>
+      </div>
+      <div class="two columns">
+            <p><a href="/local/indianapolis" data-bhc="location:indianapolis">Indianapolis</a></p>
+          <p><a href="/local/kansas-city-mo" data-bhc="location:kansas-city-mo">Kansas City</a></p>
+          <p><a href="/local/las-vegas" data-bhc="location:las-vegas">Las Vegas</a></p>
+          <p><a href="/local/los-angeles" data-bhc="location:los-angeles">Los Angeles</a></p>
+          <p><a href="/local/miami" data-bhc="location:miami">Miami</a></p>
+      </div>
+      <div class="two columns">
+            <p><a href="/local/milwaukee" data-bhc="location:milwaukee">Milwaukee</a></p>
+          <p><a href="/local/minneapolis" data-bhc="location:minneapolis">Minneapolis</a></p>
+          <p><a href="/local/nashville" data-bhc="location:nashville">Nashville</a></p>
+          <p><a href="/local/new-orleans" data-bhc="location:new-orleans">New Orleans</a></p>
+          <p><a href="/local/new-york-city" data-bhc="location:new-york-city">New York City</a></p>
+      </div>
+      <div class="two columns">
+            <p><a href="/local/orlando" data-bhc="location:orlando">Orlando</a></p>
+          <p><a href="/local/philadelphia" data-bhc="location:philadelphia">Philadelphia</a></p>
+          <p><a href="/local/phoenix" data-bhc="location:phoenix">Phoenix</a></p>
+          <p><a href="/local/portland" data-bhc="location:portland">Portland</a></p>
+          <p><a href="/local/san-antonio" data-bhc="location:san-antonio">San Antonio</a></p>
+      </div>
+      <div class="two columns">
+            <p><a href="/local/san-diego" data-bhc="location:san-diego">San Diego</a></p>
+          <p><a href="/local/san-francisco" data-bhc="location:san-francisco">San Francisco</a></p>
+          <p><a href="/local/seattle" data-bhc="location:seattle">Seattle</a></p>
+          <p><a href="/local/toronto" data-bhc="location:toronto">Toronto</a></p>
+          <p><a href="/local/" >More Cities</a></p>
+      </div>
+    </section>
+    </div>
+</div>
+
+<script type="text/javascript" src="/homepage-assets/main-8f3b22f5c5.js"></script>
+<script type="text/javascript" src="/homepage-assets/locale.js?locale=en_US&country=US"></script>
+
+
+
+      <footer class="footer-i18n">
+        <div class="row res-fo-wrapper">
+          <div class="columns nine footer-i18n-payload">
+            <div class="row footer-i18n-sitemap footer-i18n-flexLinks"
+                 data-bhw="FooterSitemap">
+                <div class="columns three footer-links">
+                  <h6 class="footer-link-headline">Company</h6>
+                    <a href="/about" data-bhw="FooterLinkAbout">About Groupon</a>
+              <a href="http://jobs.groupon.com" data-bhw="FooterLinkJobs">Jobs</a>
+              <a href="/blog" data-bhw="FooterLinkBlog">Blog</a>
+              <a href="/press" data-bhw="FooterLinkPress">Press</a>
+              <a href="http://investor.groupon.com" data-bhw="FooterLinkInvestorRelations">Investor Relations</a>
+          </div>
+          <div class="columns three footer-links">
+                  <h6 class="footer-link-headline">Work with Groupon</h6>
+                    <a href="https://www.grouponworks.com/get-featured/" data-bhw="FooterLinkDeal">Run a Groupon Deal</a>
+              <a href="http://www.grouponworks.com/merchant-solutions/payments" data-bhw="FooterLinkPayments">Accept Groupon Payments</a>
+              <a href="/pages/api" data-bhw="FooterLinkDevelopers">Developers / API</a>
+              <a href="http://www.grouponaffiliate.com/" data-bhw="FooterLinkAffiliates">Affiliate Program</a>
+              <a href="http://grassroots.groupon.com" data-bhw="FooterLinkCommunity">Help Your Community</a>
+          </div>
+          <div class="columns three footer-links">
+                  <h6 class="footer-link-headline">More</h6>
+                    <a href="/customer_support" data-bhw="FooterLinkCustomerSupport">Customer Support</a>
+              <a href="/faq" data-bhw="FooterLinkFaq">FAQ</a>
+              <a href="/coupons" data-bhw="FooterLinkCoupons">Coupons</a>
+              <a href="https://www.groupon.com/giftcards" data-bhw="FooterLinkGiftcards">Gift Cards</a>
+              <a href="http://www.ideeli.com/" data-bhw="FooterLinkIdeeli">ideeli</a>
+          </div>
+        <div class="columns three">
+                <h6 class="footer-link-headline">Follow Us</h6>
+          <div class="follow-us">
+            <a title="Twitter" class="icon-twitter" data-bhw="FooterSocialTwitter" href="http://twitter.com/groupon"></a>
+            <a title="Facebook" class="icon-facebook" data-bhw="FooterSocialFacebook" href="http://facebook.com/groupon"></a>
+            <a title="RSS Feed" class="icon-feed" data-bhw="FooterSocialFeed" href="http://feeds.feedburner.com/groupon"></a>
+          </div>
+        </div>
+            </div>
+      
+            <div class="row">
+              <div class="columns twelve">
+      
+                <div class="footer-i18n-seo" data-bhw="FooterSeo">
+            <h6>Unbeatable Deals for Local&nbsp;Adventures</h6>
+            <p>
+              Groupon is an easy way to get huge discounts while discovering fun activities in your city. Our daily local deals consist of <a data-bhw="FooterSeoUSLinkRestaurants" href="/local/restaurants">restaurants</a>, <a data-bhw="FooterSeoUSLinkSpas" href="/local/beauty-and-spas">spas</a>, <a data-bhw="FooterSeoUSLinkActivities" href="/local/things-to-do">things to do</a>, <a data-bhw="FooterSeoUSLinkNightlife" href="/local/nightlife">nightlife</a>, <a data-bhw="FooterSeoUSLinkMassages" href="/local/massage">massages</a>, <a data-bhw="FooterSeoUSLinkSalons" href="/local/hair-salons">salons</a>, <a data-bhw="FooterSeoUSLinkHotels" href="/getaways">hotels</a>, as well as health and beauty tips from our very own <a data-bhw="FooterSeoUSLinkFavin" href="/articles/favin-the-maven">Favin the Maven</a>.
+            </p>
+          </div>
+
+                <div class="footer-copyright" data-bhw="FooterLegalDocs">
+                  &copy; 2014 Groupon, Inc.
+                  All Rights Reserved.
+                  <span class="footer-copyright-links">
+                      <a href="/terms" data-bhw="FooterLegalLinkTermsOfUse">Terms of Use</a>
+                <a href="/privacy" data-bhw="FooterLegalLinkPrivacyPolicy">Privacy Policy</a>
+                <a href="/licenses" data-bhw="FooterLegalLinkLicenses">Licenses</a>
+            </span>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="columns three footer-i18n-promos" data-bhw="FooterWidgets">
+            <a href="/mobile?utm_source=gp&utm_medium=footer&utm_campaign=mlusers"
+               class="footer-i18n-promo footer-i18n-promo-mobile"
+               title="Groupon for mobile devices"
+               data-bhw="FooterWidgetMobileApp">
+              <h6 class="footer-cta-headline">Get the Groupon Mobile App&nbsp;<i class="icon-arrow-right-large"></i></h6>
+            </a>
+            <a href="http://www.grouponworks.com"
+               class="footer-i18n-promo footer-i18n-promo-works"
+               title="Groupon Works"
+               data-bhw="FooterWidgetGrouponWorksApp">
+              <span class="icon-groupon footer-i18n-works-logo">Works</span>
+              <h6 class="footer-cta-headline">Get New Customers and Grow Your Business&nbsp;<i class="icon-arrow-right-large"></i></h6>
+            </a>
+          </div>
+      
+        </div>
+      </footer>
+      <div class="touch-footer hide">
+        <a class="row" href="">
+          Go to mobile site
+        </a>
+      </div>
+
+    </div>
+    <script>
+      window.Groupon.charMapping = {"A":"ÀÁÂÃÄÅ","AE":"Æ","C":"Ç","D":"Ð","E":"ÈÉÊË","I":"ÌÍÎÏ","N":"Ñ","O":"ÒÓÔÕÖŐØ","TH":"Þ","U":"ÙÚÛÜŰ","Y":"Ý","a":"àáâãäå","ae":"æ","c":"ç","d":"ð","e":"èéêë","i":"ìíîï","n":"ñ","o":"òóôõöőø","ss":"ß","th":"þ","u":"ùúûüű","y":"ýÿ"};
+    </script>
+    
+    
+  </body>
+</html>
