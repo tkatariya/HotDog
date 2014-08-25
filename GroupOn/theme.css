@@ -31,9 +31,18 @@ min-height: 50px;
 border: 1px solid transparent;
 }
 
-.textboxstle
+.textboxstle2
 {
 	margin-left: inherit;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.textboxstle1
+{
+	margin-right: inherit;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 
